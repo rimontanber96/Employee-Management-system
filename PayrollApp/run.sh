@@ -1,0 +1,4 @@
+#!/bin/sh
+mkdir -p out
+javac -d out src/*.java
+java -cp "out:lib/sqlite-jdbc.jar" Main
